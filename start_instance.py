@@ -49,7 +49,7 @@ accelerator_type = 'v3-8'
 tpu_command = f"""gcloud compute tpus create {instance_name} \\
         --zone={zone} \\
         --network=default \\
-        --range=--range 192.168.$rng.0/29 \\
+        --range=--range 192.168.{random.randint(0, 100)}.0/29 \\
         --version={version} \\
         --accelerator-type={accelerator_type}
 """
