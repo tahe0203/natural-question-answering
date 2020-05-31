@@ -6,7 +6,7 @@
 import os
 import random
 
-zone = 'europe-west4-a'
+zone = 'us-west1-b'
 instance_name = 'nq2'
 image_family = 'tf2-2-1-cpu'
 machine_type = 'n1-standard-8'
